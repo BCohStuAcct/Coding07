@@ -1,0 +1,76 @@
+/*
+Name: Brenda Cohen
+Assignment: 06
+Purpose: CSS for static pages.
+ */
+
+ footer{
+    background: #25b04b;
+    color: #fff;
+    height: 75px;
+}
+
+.nav-section{
+    padding-top: 10px;
+    height: 60px;
+    background: #198035;
+    text-align: center;
+}
+
+.nav-section > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px 10px;
+}
+
+.nav-section > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    text-align: center;
+    height: calc(100vh - 16px);
+    display: flex;
+    flex-direction: column;
+}
+.body-div{
+    height: calc(100%);
+    overflow: auto;
+}
+.body-article {
+    background-image: url('http://themes.webdevia.com/ecology/wp-content/uploads/2016/12/slide-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 453px;
+    margin: 20px 0px;
+}
+
+.body-article > article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    margin-bottom: 10px;
+}
+     
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hide {
+    display: none;
+}
+
