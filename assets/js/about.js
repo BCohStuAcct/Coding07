@@ -1,3 +1,9 @@
+/*
+Name: Brenda Cohen
+Assignment: 06
+Purpose: Interactive code for about page, toggles css for hiding content
+*/
+
 function toggleHide(targetToHide) {
     if (targetToHide.classList.contains('hide')) {
         targetToHide.classList.remove('hide');
